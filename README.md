@@ -23,3 +23,5 @@ I developed and trained this model starting two years ago. Due to time constrain
    - Conducted grid search hyperparameter tuning on AttentiveFP, the best-performing model.
    - Achieved significant improvements in prediction accuracy.
 
+5. **Scalability and Deployment**:  
+   - [API](./GNN_api) and [docker](./GNN_docker)

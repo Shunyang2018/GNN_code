@@ -10,3 +10,4 @@ fine_tune.py
 configure.py
 *.bin
 .DS_Store
+*.pyc
