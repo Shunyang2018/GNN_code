@@ -1,6 +1,6 @@
 ## ML Model for RT Prediction (2025)
 
-I developed and trained this model starting two years ago. Due to time constraints, I could not include:
+I developed and trained this model from two years ago. Due to time constraints, I could not include:
 
 1. Masking pretraining for enhanced feature learning.
 2. Combining molecular descriptors with the GNN model for integrated predictions.
