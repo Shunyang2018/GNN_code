@@ -16,7 +16,7 @@ The output is prediction.csv at the same folder. And then, you can use RT-filter
 [Batch mode](#b) is another option in the next section. 
 
 <a name="b"></a>
-## Batch run on the wormwood
+## Batch run on the server
 
 
 
