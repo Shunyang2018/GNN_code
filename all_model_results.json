@@ -1,0 +1,42 @@
+{
+  "GCN": {
+    "Best val mae": 0.49150320887565613,
+    "Test mae": 0.45785361528396606
+  },
+  "GAT": {
+    "Best val mae": 0.3472808003425598,
+    "Test mae": 0.3785816431045532
+  },
+  "Weave": {
+    "Best val mae": 0.4747655391693115,
+    "Test mae": 0.48232242465019226
+  },
+  "MPNN": {
+    "Best val mae": 0.3982100188732147,
+    "Test mae": 0.4415026307106018
+  },
+  "AttentiveFP": {
+    "Best val mae": 0.3214002549648285,
+    "Test mae": 0.33426281809806824
+  },
+  "gin_supervised_contextpred": {
+    "Best val mae": 0.4089275598526001,
+    "Test mae": 0.4010923206806183
+  },
+  "gin_supervised_infomax": {
+    "Best val mae": 0.4564848244190216,
+    "Test mae": 0.4705674350261688
+  },
+  "gin_supervised_edgepred": {
+    "Best val mae": 0.439164400100708,
+    "Test mae": 0.41336357593536377
+  },
+  "gin_supervised_masking": {
+    "Best val mae": 0.45019441843032837,
+    "Test mae": 0.45540446043014526
+  },
+  "NF": {
+    "Best val mae": 1.2017685174942017,
+    "Test mae": 1.2223578691482544
+  }
+}
