@@ -1,6 +1,7 @@
 ## Retention Time Prediction for Small Molecules in Untargeted Metabolomics
 
 Unidentified peaks remain a significant challenge in untargeted metabolomics using LC-MS/MS. Combining MS/MS matching with retention time significantly enhances confidence in peak annotations. Here, I demonstrate how retention times can be accurately predicted from molecular structures.
+
 Retention times for approximately 5,000 molecules were collected using a 10-minute C18 HPLC method. The data was split into training, validation, and testing sets with a ratio of 8:1:1. Three molecular embedding approaches—fingerprint, descriptor, and graph-based methods—were evaluated. Among these, the graph-based method with an attention mechanism (AttentiveFP) demonstrated the best performance. A Bayesian optimization fine-tuning process was then employed to optimize the model parameters and achieve the best results. The final model was deployed in a Docker container, enabling both batch predictions and API-based single-molecule predictions.
 
 ### Jupyter Notebook Contents
@@ -16,13 +17,11 @@ Retention times for approximately 5,000 molecules were collected using a 10-minu
 
 3. **Step 3**: Testing Different GNN Architectures  
    - Evaluated various GNN models including GCN, GAT, MPNN, and AttentiveFP.
-   - Early stop
-   - Best parameters from publications as default
-   
+   - Early stop, dropout, Best parameters from publications as default.
 
 4. **Step 4**: Fine-Tuning on Best-Performing Model  
    - Conducted grid search hyperparameter tuning on AttentiveFP, the best-performing model.
-   - Achieved significant improvements in prediction accuracy.
+   - layers, time steps, graph feature size, dropout.
 
 5. **Scalability and Deployment**:  
    - [API](./GNN_api) and [docker](./GNN_docker)
