@@ -2,7 +2,9 @@
 
 Unidentified peaks remain a significant challenge in untargeted metabolomics using LC-MS/MS. Combining MS/MS matching with retention time significantly enhances confidence in peak annotations. Here, I demonstrate how retention times can be accurately predicted from molecular structures.
 
-Retention times for approximately 5,000 molecules were collected using a 10-minute C18 HPLC method. The data was split into training, validation, and testing sets with a ratio of 8:1:1. Three molecular embedding approaches—fingerprint, descriptor, and graph-based methods—were evaluated. Among these, the graph-based method with an attention mechanism (AttentiveFP) demonstrated the best performance. A Bayesian optimization fine-tuning process was then employed to optimize the model parameters and achieve the best results. The final model was deployed in a Docker container, enabling both batch predictions and API-based single-molecule predictions.
+Retention times for approximately 5,000 molecules were collected using a 10-minute C18 HPLC method. The data was split into training, validation, and testing sets with a ratio of 8:1:1. Three molecular embedding approaches—fingerprint, descriptor, and graph-based methods—were evaluated. Among these, the graph-based method with an attention mechanism (AttentiveFP) demonstrated the best performance. A Bayesian optimization fine-tuning process was then employed to optimize the model parameters and achieve the best results. 
+
+The final model was deployed in a Docker container, enabling both batch predictions and API-based single-molecule predictions.
 
 ### Jupyter Notebook Contents
 
